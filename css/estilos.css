@@ -657,8 +657,44 @@ Pagina descargas
   background-color: rgb(240, 171, 34);
   box-shadow: 0 0 10px rgb(240, 171, 34), 0 0 20px rgb(240, 171, 34), 0 0 20px rgb(240, 171, 34);
   color: rgb(232, 232, 232); 
+  
 }
 
+
+.btn1{
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: transparent;
+  color: grey;
+  font-size: 15px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 6px ;
+  margin-bottom: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+  
+.btn1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: rgb(8, 140, 161);
+    transition: all 500ms ease;
+    z-index: -1;
+  }
+.btnes1:hover{
+  background-color: rgb(8, 140, 161);
+  box-shadow: 0 0 10px rgb(8, 140, 161), 0 0 20px rgb(8, 140, 161), 0 0 20px rgb(8, 140, 161);
+  color: rgb(232, 232, 232); 
+  
+}
 
 
 /* 
@@ -969,6 +1005,20 @@ input[type=submit]:hover {
     align-items: center;
 }
 
+.marco11 {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 224, 199);
+    position: absolute;
+    margin-top: 554px;
+    margin-left: 662px;
+    cursor: pointer;
+    width: 83px;
+    height: 55px;
+    text-align:center ;    
+    display: flex;
+    align-items: center;
+}
 
 footer {
     width: 100%;
