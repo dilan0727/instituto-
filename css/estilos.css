@@ -632,7 +632,7 @@ Pagina descargas
   width: 100%;
   border-radius: 4px;
   background-color: transparent;
-  color: grey;
+  color: #555;
   font-size: 15px;
   overflow: hidden;
   transition: all 500ms ease;
@@ -831,7 +831,7 @@ input[type=submit]:hover {
 }
 .procesos {
    
-   background-color: #F5F5F5;
+   background-color: #ffffff;
    background-repeat: repeat-x !important;
    align-items: center;
    justify-content: center;
@@ -842,8 +842,9 @@ input[type=submit]:hover {
 .marco {
     margin: 0px auto 0px auto;
     border: 0px;
-    width: 890px;
-    height: 580px;
+    width: 1160px;
+    height: 630px;
+    margin: rgb(238, 238, 238);
  
 
     
@@ -852,7 +853,7 @@ input[type=submit]:hover {
   position: absolute;
   margin-top: 0px;
   margin-left: 0px;
-  display: inline-block;
+  
 }
 
 .marco00 {
@@ -867,12 +868,12 @@ input[type=submit]:hover {
 }
 
 .marco01 {
-   background-color: rgb(250, 224, 199);
+   background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 182px;
-    margin-left: 216px;
+    margin-top: 185px;
+    margin-left: 269px;
     cursor: pointer;
-    width: 238px;
+    width: 296px; 
     height: 38px;
     display: flex;
     align-items: center;
@@ -881,10 +882,10 @@ input[type=submit]:hover {
 }
 
 .marco02 {
-    background-color: rgb(250, 224, 199);
-    margin-top: 182px;
-    margin-left: 460px;
-    width: 238px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 185px;
+    margin-left: 577px;
+    width: 295px;
     height: 38px;
     cursor: pointer;
     position: absolute;
@@ -895,12 +896,12 @@ input[type=submit]:hover {
 }
 
 .marco03 {
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 321px;
-    margin-left: 215px;
+    margin-top: 327px;
+    margin-left: 269px;
     cursor: pointer;
-    width: 179px;
+    width: 223px;
     height: 56px;
     text-align:center ;    
     display: flex;
@@ -910,12 +911,12 @@ input[type=submit]:hover {
     
 
 .marco04 {
-   background-color: rgb(250, 224, 199);
+   background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 321px;
-    margin-left: 402px;
+    margin-top: 327px;
+    margin-left: 502px;
     cursor: pointer;
-    width: 143px;
+    width: 180px;
     height: 56px;
     text-align:center ;    
     display: flex;
@@ -923,12 +924,12 @@ input[type=submit]:hover {
 }
 
 .marco05 {
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
   position: absolute;
-  margin-top: 321px;
-  margin-left: 554px;
+  margin-top: 327px;
+  margin-left: 692px;
   cursor: pointer;
-  width: 143px;
+  width: 180px;
   height: 56px;
   text-align:center ;    
   display: flex;
@@ -937,12 +938,12 @@ input[type=submit]:hover {
 }
 
 .marco06 {
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 480px;
-    margin-left: 217px;
+    margin-top: 488px;
+    margin-left: 270px;
     cursor: pointer;
-    width: 83px;
+    width: 106px;
     height: 55px;
     text-align:center ;    
     display: flex;
@@ -951,25 +952,26 @@ input[type=submit]:hover {
 }
 
 .marco07 {
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 480px;
-    margin-left: 310px;
+    margin-top: 488px;
+    margin-left: 388px;
     cursor: pointer;
-    width: 84px;
+    width: 104px;
     height: 55px;
     text-align:center ;    
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .marco08 {
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 480px;
-    margin-left: 403px;
+    margin-top: 488px;
+    margin-left: 503px;
     cursor: pointer;
-    width: 110px;
+    width: 138px;
     height: 55px;
     text-align:center ;    
     display: flex;
@@ -977,12 +979,12 @@ input[type=submit]:hover {
 }
 
 .marco09 {
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 480px;
-    margin-left: 522px;
+    margin-top: 488px;
+    margin-left: 652px;
     cursor: pointer;
-    width: 83px;
+    width: 104px;
     height: 55px;
     text-align:center ;    
     display: flex;
@@ -993,38 +995,25 @@ input[type=submit]:hover {
 .marco10 {
   justify-content: center;
   align-items: center;
-  background-color: rgb(250, 224, 199);
+  background-color: rgb(242, 242, 242);
     position: absolute;
-    margin-top: 480px;
-    margin-left: 615px;
+    margin-top: 488px;
+    margin-left: 768px;
     cursor: pointer;
-    width: 83px;
+    width: 104px;
     height: 55px;
     text-align:center ;    
     display: flex;
     align-items: center;
 }
 
-.marco11 {
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(250, 224, 199);
-    position: absolute;
-    margin-top: 554px;
-    margin-left: 662px;
-    cursor: pointer;
-    width: 83px;
-    height: 55px;
-    text-align:center ;    
-    display: flex;
-    align-items: center;
-}
+
 
 footer {
     width: 100%;
     display: inline-block !important;
     background-color: #302e2e;
-    border-top: 5px solid #a6d9e0;
+    border-top: 5px solid gray;
     margin: 0px;
     padding: 20px 0px 20px 0px;
     text-align: right;
@@ -1040,12 +1029,12 @@ footer {
 
 #block-nice-menus-1 a {
     font-size: 16px;
-    color:#FFFFFF;
+    color:rgb(240, 171, 34);
     text-decoration: none;
 }
 
 #block-nice-menus-1 a:hover {
-    color:#F0C020;
+    color:white;
     text-decoration: none;
 }
 
@@ -1116,10 +1105,20 @@ input[type=search] {
 .codigo {
     background-color: #00BFFF;
     border-bottom: 3px solid #ffffff;
-    padding: 5px;
+    padding: 3px;
+    font-size: 13px;
     font-weight: bold;
-}
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 
+}
+.doc{
+
+  font-size: 9px;
+  font-weight: bold;
+}
 .profor {
     background-color: #FAFAFA;
     padding: 5px 5px 10px 5px;
@@ -1176,6 +1175,7 @@ input[type=search] {
 .procedimientos ul li {
     margin: 0px !important;
 }
+
 
 .titulodc {
     background-color:#bcbcbc;
