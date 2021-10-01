@@ -1162,6 +1162,18 @@ input[type=search] {
     vertical-align: middle;
 }
 
+.volver {
+  display: inline-block;
+  background-image: url(imagenes/volver.png) !important;
+  background-position: 0px 0px !important;
+  background-repeat: no-repeat !important;
+  background-size: 40px;
+  width: 50px !important;
+  height: 43px !important;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
 .versiones {
     display: block;
     color:#276b71;
